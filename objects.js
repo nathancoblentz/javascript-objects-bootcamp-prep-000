@@ -4,7 +4,8 @@ var playlist = new Object ({
       Phish: "Piper",
       theBand: "Cripple Creek",
       tomPetty: "American Girl",
-      prince: "Purple Rain"
+      prince: "Purple Rain",
+      kanye: "Gold Digger"
 
   })
 
@@ -12,4 +13,10 @@ var playlist = new Object ({
 function updatePlaylist(playlist, artistName, songTitle) {
     songTitle = "Here's to the State of Mississippi"
   return Object.assign({}, {'Phil Ochs': songTitle})
+}
+
+function removeFromPlaylist(playlist, artistName) {
+  artistName = 'kanye'
+  deliete playlist.artistName;
+  return playlist;
 }
