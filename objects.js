@@ -10,7 +10,7 @@ var playlist = new Object ({
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  artistName="Phil Ochs"
-  songTitle="Htere's to the State of Mississippi"
+  artistName = "Phil Ochs"
+  songTitle = "Here's to the State of Mississippi"
   return Object.assign({}, {artistName: songTitle})
 }
