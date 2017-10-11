@@ -13,4 +13,3 @@ function updatePlaylist(playlist, artistName, songTitle) {
   songTitle="The Great State of Mississippi"
   return Object.assign({}, {artistName: songTitle})
 }
-
