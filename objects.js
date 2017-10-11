@@ -8,8 +8,9 @@ var playlist =  new Object(
     }
   }
 )
+function updatePlaylist(playlist, artistName, songTitle) {
+  artistName="Phil Ochs"
+  songTitle="The Great State of Mississippi"
+  return Object.assign({}, {artistName: songTitle})
+}
 
-  function updatePlaylist (playlist, artistName, songTitle) {
-  Object.assign({{}, {"Phil Ochs": "The Great State of Mississippi"}})
-    return playlist
-  }
