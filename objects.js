@@ -1,4 +1,4 @@
-var playlist =  new Object(
+new Object = playlist 
   {
       gratefulDead:"Ripple",
       Phish: "Piper",
@@ -7,7 +7,7 @@ var playlist =  new Object(
       prince: "Purple Rain",
     }
   }
-)
+
 function updatePlaylist(playlist, artistName, songTitle) {
   artistName="Phil Ochs"
   songTitle="The Great State of Mississippi"
