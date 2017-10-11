@@ -1,4 +1,4 @@
-new Object = playlist
+var playlist
   {
       gratefulDead:"Ripple",
       Phish: "Piper",
