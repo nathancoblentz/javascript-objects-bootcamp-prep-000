@@ -5,7 +5,7 @@ var playlist = new Object ({
       theBand: "Cripple Creek",
       tomPetty: "American Girl",
       prince: "Purple Rain",
-      kanye: "Gold Digger"
+      Kanye: "Gold Digger"
 
   })
 
@@ -16,6 +16,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.kanye
+  delete playlist.Kanye
   return playlist;
 }
