@@ -16,6 +16,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  deliete playlist.kanye;
+  delete playlist.kanye;
   return playlist;
 }
